@@ -1,0 +1,55 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Stick&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Stick";
+}
+
+body {
+  margin: auto;
+  max-width: 600px;
+  text-align: center;
+}
+#game-title {
+  color: #5bbd15;
+}
+#game-zone {
+  border: 2px solid black;
+  height: 600px;
+  width: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  position: relative;
+  
+}
+.cell {
+  display: grid;
+  border: 1px solid black;
+
+}
+
+.mole {
+  height: 150px;
+  width: 150px;
+  border-radius: 150px;
+  background-color: brown;
+  margin: auto;
+}
+
+#score-zone {
+  background-color: #5bbd15;
+  padding: 0.5em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.score-points {
+  padding: 1em;
+}
+
+.start-button {
+  padding: 1em;
+}
