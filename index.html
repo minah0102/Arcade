@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,15 +9,32 @@
     <link rel="stylesheet" href="style.css" />
     <script defer src="app.js"></script>
     <title>Whac-a-mole Game</title>
+
 </head>
+
 <body>
     <h1 id=game-title>Whac-a-mole</h1>
     <div id=game-zone>
-        
+        <div class=point-guide>
+            <div class=regular-mole-point>
+                <img src="mole_cartoon.png" class="mole"> <br>
+                10 point
+            </div>
+            <div class=faster-mole-point>
+                <img src="faster_mole.png" class="fasterMole"><br>
+                20 points
+            </div>
+            <div class=civilian-mole-point>
+                <img src="civilian_mole.png" class="civilian-mole"><br>
+                50 points
+            </div>
+        </div>
+
     </div>
     <div id=score-zone>
-        <span class=score-points>Score: </span>
+        <span class=score-points>Score: 0</span>
         <button class=start-button>Start</button>
     </div>
 </body>
+
 </html>
